@@ -1,0 +1,20 @@
+.my-card {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    border-radius: 20px;
+
+    &:hover {
+        transform: scale(1.1);
+        filter: brightness(1.3);
+    }
+
+    a {
+        width: 100%;
+
+        img {
+            padding: 10px;
+        }
+    }
+}

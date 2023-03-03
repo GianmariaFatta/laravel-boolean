@@ -1,0 +1,21 @@
+body {
+    font-family: 'Gloock', serif;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(at top center, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.40) 120%) #989898;
+}
+
+main {
+    min-height: 100vh;
+    padding-top: 100px;
+
+    .btn {
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    a {
+        color: black;
+    }
+}
